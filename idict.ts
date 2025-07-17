@@ -1,14 +1,11 @@
-export interface IMeaning {
-    pos?: string;
-    meaning?: Array<{
-        def?: string;
-        trans?: string;
-    }>
+export interface IMeanItem {
+    def?: string;
+    trans?: string;
 }
 export interface ICard {
     sound?: string;
     phonetic?: string;
-    meanings?: Array<IMeaning>;
+    meanings?: Record<string, IMeanItem>;
 }
 export interface IDict {
     _id?: string;

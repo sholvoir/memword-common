@@ -5,7 +5,7 @@ export interface IMeanItem {
 export interface ICard {
     sound?: string;
     phonetic?: string;
-    meanings?: Record<string, IMeanItem>;
+    meanings?: Record<string, Array<IMeanItem>>;
 }
 export interface IDict {
     _id?: string;

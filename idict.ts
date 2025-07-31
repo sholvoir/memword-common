@@ -1,15 +1,15 @@
-export interface IMeanItem {
+export interface IMean {
     def?: string;
     trans?: string;
 }
-export interface ICard {
+export interface IEntry {
     sound?: string;
     phonetic?: string;
-    meanings?: Record<string, Array<IMeanItem>>;
+    meanings?: Record<string, Array<IMean>>;
 }
 export interface IDict {
     _id?: string;
     word: string;
     version?: number;
-    cards?: Array<ICard>;
+    entries?: Array<IEntry>;
 }

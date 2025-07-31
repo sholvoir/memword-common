@@ -1,10 +1,11 @@
-export interface IWordList {
+export interface IBook {
     wlid: string;
     version: string;
     disc?: string;
+    content?: Iterable<string>
 }
 
-export const compareWL = (a: IWordList, b: IWordList): number =>
+export const compareWL = (a: IBook, b: IBook): number =>
     a.wlid.localeCompare(b.wlid);
     
 

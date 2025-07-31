@@ -1,14 +1,14 @@
 {
     "lock": false,
     "name": "@sholvoir/memword-common",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "exports": {
         "./common": "./common.ts",
+        "./ibook": "./ibook.ts",
         "./idict": "./idict.ts",
         "./iissue": "./iissue.ts",
         "./isetting": "./isetting.ts",
         "./itask": "./itask.ts",
-        "./iuser": "./iuser.ts",
-        "./iwordlist": "./iwordlist.ts"
+        "./iuser": "./iuser.ts"
     }
 }

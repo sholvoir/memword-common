@@ -1,6 +1,6 @@
 export interface IBook {
     bid: string;
-    version: string;
+    version: number;
     disc?: string;
     content?: Iterable<string>
 }

@@ -1,4 +1,5 @@
 export interface IBook {
+    _id?: string;
     bid: string;
     version: number;
     disc?: string;

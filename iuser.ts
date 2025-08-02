@@ -1,6 +1,7 @@
 import { defaultSetting, type ISetting } from "./isetting.ts";
 
 export interface IUser {
+    _id?: string;
     name: string;
     phone: string;
     confirmed: boolean;
@@ -9,7 +10,8 @@ export interface IUser {
 };
 
 export const newUser = (name: string, phone: string): IUser => ({
-    name, phone,
+    name,
+    phone,
     confirmed: false,
     lastOtp: 0,
     setting: defaultSetting()

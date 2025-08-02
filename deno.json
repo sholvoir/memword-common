@@ -1,7 +1,7 @@
 {
     "lock": false,
     "name": "@sholvoir/memword-common",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "exports": {
         "./common": "./common.ts",
         "./ibook": "./ibook.ts",
